@@ -168,7 +168,7 @@ function Checkout({ cart, setPage, setCart }) {
                                 </div>
                                 {cart.length > 1 && <span onClick={()=>setLessOrMore("more")} style={{color:"#979797",cursor:"pointer",fontWeight:"bold"}} className='col-12 text-center'>{`and ${cart.length-1} other items`}</span>
                                 }
-                            </div> : <div style={{backgroundColor:"#F1F1F1"}} className='rounded d-flex flex-column col-6 p-3'>
+                            </div> : <div style={{backgroundColor:"#F1F1F1"}} className='rounded d-flex flex-column col-md-6 col-12 mb-3 mb-md-0 p-3'>
                                     <div className='more'>
                                     {cart.map(row => {
                         return <div key={row.name} className='p-2 row '>
