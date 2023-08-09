@@ -27,12 +27,12 @@ return (
                         <CloseIcon  />
 
                         </span>
-                        <Link onClick={() => { setPage("home"); setMenuDisplay("d-none")}} to='/' className='link me-md-4 my-md-0 my-3'>HOME</Link>
-                        <Link onClick={() => { setPage("headphone");setMenuDisplay("d-none") }} to='/headphones' className='link my-md-0 my-3 me-md-4'>HEADPHONES</Link>
-                        <Link onClick={() => { setPage("speakers"); setMenuDisplay("d-none")}} to='/speakers' className='link my-md-0 my-3 me-md-4'>SPEAKERS</Link>
-                    <Link onClick={()=>{setPage("earphone"); setMenuDisplay("d-none")}} to="/earphones" className='link my-md-0 my-3 me-md-4'>EARPHONES</Link>
+                        <Link onClick={() => { setPage("home"); setMenuDisplay("d-none")}} to='/Audiophile-e-commerce/' className='link me-md-4 my-md-0 my-3'>HOME</Link>
+                        <Link onClick={() => { setPage("headphone");setMenuDisplay("d-none") }} to='/Audiophile-e-commerce/headphones' className='link my-md-0 my-3 me-md-4'>HEADPHONES</Link>
+                        <Link onClick={() => { setPage("speakers"); setMenuDisplay("d-none")}} to='/Audiophile-e-commerce/speakers' className='link my-md-0 my-3 me-md-4'>SPEAKERS</Link>
+                    <Link onClick={()=>{setPage("earphone"); setMenuDisplay("d-none")}} to="/Audiophile-e-commerce/earphones" className='link my-md-0 my-3 me-md-4'>EARPHONES</Link>
                 </ul>
-                    <Link onClick={() => { setDisplay(display === "d-block" ? "d-none" : "d-block") }} className='col-1 text-end position-relative'>
+                    <Link  onClick={() => { setDisplay(display === "d-block" ? "d-none" : "d-block") }} className='col-1 text-end position-relative'>
                         <img alt='cart' src={cartIcon} />
                         <span style={{ backgroundColor: "red", borderRadius: "50%", width: "10px", height: "10px", top: "0", right: "-10px" }} className={`position-absolute ${cart.length===0?"d-none":"d-block"}` }></span>
                 </Link>
@@ -45,7 +45,7 @@ return (
                         {xx.new&&<span style={{color:"#979797",letterSpacing:"10px"}} className='mt-5'> New Product</span>}
                         <h1 className='col-12 text-md-start text-center my-4' style={{ color: "white",  }}>{xx.name}</h1>
                         <p className='col-12 text-center text-md-start' style={{ color: "#979797", fontSize: "15px" }}>Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
-                                <Link to='/details' onClick={() => { setDetails([{ ...xx, itemquantity: 1 }]); setPage("") }} style={{textDecoration:"none"}} className='btnn mt-md-3 py-3 text-center col-4'>SEE PRODUCT</Link>
+                                <Link to='/Audiophile-e-commerce/details' onClick={() => { setDetails([{ ...xx, itemquantity: 1 }]); setPage("") }} style={{textDecoration:"none"}} className='btnn mt-md-3 py-3 text-center col-4'>SEE PRODUCT</Link>
                     </div>
                     <div className='col-md-6 col-12 ' >
                         <img  alt='imgg'  className='img-fluid' src={ homeimg} />

@@ -19,7 +19,7 @@ return (
                             {head.new && <div style={{ letterSpacing: "10px", color: "#D87D4A" }}>NEW PRODUCT</div>}
                             <h1 style={{fontSize:"40px"}} className='col-md-6 col-8 text-center my-3'>{head.name}</h1>
                                 <p className='col-12 text-center' style={{ color: "#979797" }}>{head.description}</p>
-                                <Link onClick={() => { setDetails([{ ...head, itemquantity: 1 }]); setPage(""); window.scrollTo({ top: "0" })}} to='/details' style={{textDecoration:"none"}} className='linkhead col-4 text-center py-3'>SEE PRODUCT</Link>
+                                <Link onClick={() => { setDetails([{ ...head, itemquantity: 1 }]); setPage(""); window.scrollTo({ top: "0" })}} to='/Audiophile-e-commerce/details' style={{textDecoration:"none"}} className='linkhead col-4 text-center py-3'>SEE PRODUCT</Link>
                         </div>
             </div>
                     </div>

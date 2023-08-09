@@ -18,7 +18,7 @@ function Home({ data, setDetails, setPage,details }) {
     <div className='container homecon mb-md-5'>
         <div className='row'>
             <div className='col-12 p-md-0 p-5 d-flex flex-md-row flex-column justify-content-between '>
-                    <Link onClick={() => { setPage("headphone"); ;window.scrollTo({top:"0"})}} to='/headphones' style={{textDecoration:"none"}} className='col-md-3 col-12 secc d-md-flex rounded position-relative flex-column align-items-center'>
+                    <Link  onClick={() => { setPage("headphone"); ;window.scrollTo({top:"0"})}} to='/Audiophile-e-commerce/headphones' style={{textDecoration:"none"}} className='col-md-3 col-12 secc d-md-flex rounded position-relative flex-column align-items-center'>
                 <div className='col-md-8 col-6 img-box  '>
                     <img alt='head' className='img-fluid' src={headphones } />
                 </div>
@@ -27,7 +27,7 @@ function Home({ data, setDetails, setPage,details }) {
                 <div>SHOP <span style={{color:"#D87D4A"}}><KeyboardArrowRightIcon/></span> </div>
                 </div>
             </Link>
-                    <Link onClick={() => { setPage("speakers"); ;window.scrollTo({top:"0"})}} to='/speakers' style={{textDecoration:"none"}} className='col-md-3 col-12 secc d-md-flex rounded position-relative flex-column align-items-center'>
+                    <Link onClick={() => { setPage("speakers"); ;window.scrollTo({top:"0"})}} to='/Audiophile-e-commerce/speakers' style={{textDecoration:"none"}} className='col-md-3 col-12 secc d-md-flex rounded position-relative flex-column align-items-center'>
                 <div className='col-md-8 col-6 img-box  '>
                     <img alt='head' className='img-fluid' src={speakers } />
                 </div>
@@ -36,7 +36,7 @@ function Home({ data, setDetails, setPage,details }) {
                 <div>SHOP <span style={{color:"#D87D4A"}}><KeyboardArrowRightIcon/></span> </div>
                 </div>
                 </Link>
-                    <Link onClick={() => { setPage("earphone"); ;window.scrollTo({top:"0"})}} to='/earphones' style={{textDecoration:"none"}} className='col-md-3 col-12   secc d-md-flex rounded position-relative flex-column align-items-center'>
+                    <Link onClick={() => { setPage("earphone"); ;window.scrollTo({top:"0"})}} to='/Audiophile-e-commerce/earphones' style={{textDecoration:"none"}} className='col-md-3 col-12   secc d-md-flex rounded position-relative flex-column align-items-center'>
                 <div className='col-md-8 col-6 img-box  '>
                     <img alt='head' className='img-fluid' src={earphones } />
                 </div>
@@ -59,7 +59,7 @@ function Home({ data, setDetails, setPage,details }) {
                 <div className='col-md-5 text-sp d-flex align-items-center align-items-md-start flex-column z-2'>
                     <h1 className='col-md-7 my-md-0 my-3 col-6 h1h text-md-start text-center' >{data[0].others[2].name}</h1>
                     <p className='text-md-start col-md-12 col-10 text-center'>Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
-                        <Link to='/details' onClick={() => { setDetails([{...zx9[0],itemquantity:1}]); setPage(""); ;window.scrollTo({top:"0"})}} className='col-md-4 mb-md-0 mb-3 col-5 text-center py-3 link ' style={{border:"none",fontSize:"13px",textDecoration:"none"}}>SEE PRODUCT</Link>
+                        <Link to='/Audiophile-e-commerce/details' onClick={() => { setDetails([{...zx9[0],itemquantity:1}]); setPage(""); ;window.scrollTo({top:"0"})}} className='col-md-4 mb-md-0 mb-3 col-5 text-center py-3 link ' style={{border:"none",fontSize:"13px",textDecoration:"none"}}>SEE PRODUCT</Link>
                 </div>
             </div>
         </div>
@@ -67,7 +67,7 @@ function Home({ data, setDetails, setPage,details }) {
             <div className='rounded d-flex col-12 p-0 mt-md-5 position-relative zx7con'>
                 <div className='textz7 h-100 rounded d-flex flex-column align-items-center justify-content-center col-6 '>
                     <h1 className='mb-3'>{data[5].others[0].name}</h1>
-                        <Link to="/details" onClick={() => { setDetails([{...zx7[0],itemquantity:1}]); setPage(""); ;window.scrollTo({top:"0"})}} className='link col-9 col-md-4 text-center  py-2 px-3  '> SEE PRODUCT</Link>
+                        <Link to="/Audiophile-e-commerce/details" onClick={() => { setDetails([{...zx7[0],itemquantity:1}]); setPage(""); ;window.scrollTo({top:"0"})}} className='link col-9 col-md-4 text-center  py-2 px-3  '> SEE PRODUCT</Link>
                     </div>
                       <div className='rounded col-12 overflow-hidden overflow-hidden zx7imgcon'>
                     <img alt='zx7img' src={ zx7img} className='zx7img rounded ' />
@@ -81,7 +81,7 @@ function Home({ data, setDetails, setPage,details }) {
                 </div>
                 <div className='col-md-6 col-12 yx1 p-5 d-flex flex-column justify-content-center rounded' style={{backgroundColor:"#F1F1F1"}}>
                     <h1 className='mb-5'>{data[0].slug.toUpperCase()}</h1>
-                        <Link to='/details' onClick={() => { setDetails([{...yx1[0],itemquantity:1}]); setPage("");window.scrollTo({top:"0"})}} className='link py-2 px-3 col-8 col-md-5 text-center '> SEE PRODUCT</Link>
+                        <Link to='/Audiophile-e-commerce/details' onClick={() => { setDetails([{...yx1[0],itemquantity:1}]); setPage("");window.scrollTo({top:"0"})}} className='link py-2 px-3 col-8 col-md-5 text-center '> SEE PRODUCT</Link>
                 </div>
         </div>
         </div>

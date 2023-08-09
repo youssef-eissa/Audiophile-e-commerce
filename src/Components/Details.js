@@ -25,7 +25,7 @@ function Details({ details, setDetails, data,   cart }) {
                   <span className='col-4'>{ product.itemquantity}</span>
                   <button onClick={() => { setItemCartQuantity(product.itemquantity++); }} className='col-4 sign '>+</button>
                 </div>
-                <Link onClick={() => { cart.length>0&&cart.includes(product)?setItemCartQuantity(product.itemquantity++):cart.push(product)}} className='col-md-4 col-5 d-flex justify-content-center align-items-center addto' style={{ color: "white", textDecoration: "none", fontSize: "13px" }}>ADD TO CART</Link>
+                <Link  onClick={() => { cart.length>0&&cart.includes(product)?setItemCartQuantity(product.itemquantity++):cart.push(product)}} className='col-md-4 col-5 d-flex justify-content-center align-items-center addto' style={{ color: "white", textDecoration: "none", fontSize: "13px" }}>ADD TO CART</Link>
             </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ function Details({ details, setDetails, data,   cart }) {
                   </div>
                   <div className='infoo text-center mt-5'>
                     <h1 className='col-12 mb-3'>{other.name}</h1>
-                    <Link onClick={() => { setDetails([{ ...data.filter(e => e.slug === other.slug)[0], itemquantity: 1 }]); window.scrollTo({ top: "0" });  }} className=' mt-3 px-4 py-2 col-12 linkhov' style={{textDecoration:"none",color:"white" }}>SEE PRODUCT</Link>
+                    <Link  onClick={() => { setDetails([{ ...data.filter(e => e.slug === other.slug)[0], itemquantity: 1 }]); window.scrollTo({ top: "0" });  }} className=' mt-3 px-4 py-2 col-12 linkhov' style={{textDecoration:"none",color:"white" }}>SEE PRODUCT</Link>
                   </div>
                 </div>
               })}

@@ -33,12 +33,12 @@ function App() {
       <NavBar cart={cart} data={data} setDetails={setDetails} display={display} setDisplay={setDisplay} page={page} setPage={setPage} details={details} />
       <Cart display={display} setDisplay={setDisplay}  cart={cart} setCart={setCart} setPage={setPage}  />
       <Routes >
-        <Route path='/' element={<Home data={ data} details={details} setDetails={setDetails} setPage={setPage} /> } />
-        <Route path='/headphones' element={<Headphones cart={cart}  data={ data} setPage={setPage} setDetails={setDetails} details={details}/> } />
-        <Route path='/speakers' element={<Speakers data={ data} cart={cart} setPage={setPage} details={details} setDetails={setDetails}/> } />
-        <Route path='/earphones' element={<Earphones data={data} cart={cart} setPage={setPage} details={details}   setDetails={setDetails} />} />
-        <Route path='/details' element={<Details details={details} setDetails={setDetails} data={data}   setCart={setCart} cart={cart} />} />
-        <Route path='/checkout' element={<Checkout setCart={setCart}  setPage={setPage} details={details} cart={cart } setConDisplay={setConDisplay } />} />
+        <Route path='/Audiophile-e-commerce/' element={<Home data={ data} details={details} setDetails={setDetails} setPage={setPage} /> } />
+        <Route path='/Audiophile-e-commerce/headphones' element={<Headphones cart={cart}  data={ data} setPage={setPage} setDetails={setDetails} details={details}/> } />
+        <Route path='/Audiophile-e-commerce/speakers' element={<Speakers data={ data} cart={cart} setPage={setPage} details={details} setDetails={setDetails}/> } />
+        <Route path='/Audiophile-e-commerce/earphones' element={<Earphones data={data} cart={cart} setPage={setPage} details={details}   setDetails={setDetails} />} />
+        <Route path='/Audiophile-e-commerce/details' element={<Details details={details} setDetails={setDetails} data={data}   setCart={setCart} cart={cart} />} />
+        <Route path='/Audiophile-e-commerce/checkout' element={<Checkout setCart={setCart}  setPage={setPage} details={details} cart={cart } setConDisplay={setConDisplay } />} />
       </Routes>
       <Shop page={ page} setPage={setPage} />
       <Bring page={page}/>

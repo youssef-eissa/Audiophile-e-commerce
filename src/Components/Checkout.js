@@ -138,7 +138,7 @@ function Checkout({ cart, setPage, setCart }) {
                             <span style={{ color: "#979797" }} className='col-6 '>GRAND TOTAL</span>
                             <span style={{color:"#D87D4A"}} className='col-6 fw-bold text-end'> {`$${grandTotal.toLocaleString("en-US")}` }</span>
                         </div>
-                             <Link onClick={() => {window.scrollTo({top:"0"}) ; setConfirmationDisplay("d-block");}} style={{textDecoration:"none",color:"white"}} className='con justify-content-center d-flex col-12 py-3 mt-3'>
+                             <Link  onClick={() => {window.scrollTo({top:"0"}) ; setConfirmationDisplay("d-block");}} style={{textDecoration:"none",color:"white"}} className='con justify-content-center d-flex col-12 py-3 mt-3'>
                             CONTINUE & PAY
                     </Link>
                 </div>
@@ -192,7 +192,7 @@ function Checkout({ cart, setPage, setCart }) {
                                 <div style={{color:"white"}}>{`$${grandTotal.toLocaleString("en-US")}` }</div>
                         </div>
                         </div>
-                        <Link to='/' onClick={() => { setCart([]); setConfirmationDisplay("d-none"); setPage("home")}} className='col-12 backk py-3 my-2'>BACK TO HOME</Link>
+                        <Link to='/Audiophile-e-commerce/' onClick={() => { setCart([]); setConfirmationDisplay("d-none"); setPage("home")}} className='col-12 backk py-3 my-2'>BACK TO HOME</Link>
                     </div>
             </div>
             </div>

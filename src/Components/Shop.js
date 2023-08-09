@@ -11,7 +11,7 @@ function Shop({ page,setPage }) {
     <div style={page==="checkout"?{display:"none"}:{display:"block"}} className=' container'>
         {page!=="home" && <div className='row'>
             <div className='col-12 p-md-0 p-5 shop d-flex flex-md-row flex-column justify-content-md-between '>
-                    <Link onClick={() => { setPage("headphone"); ;window.scrollTo({top:"0"})}} to='/headphones' style={{textDecoration:"none"}} className='col-md-3 col-12 secc d-md-flex rounded position-relative flex-column align-items-center'>
+                    <Link onClick={() => { setPage("headphone"); ;window.scrollTo({top:"0"})}} to='/Audiophile-e-commerce/headphones' style={{textDecoration:"none"}} className='col-md-3 col-12 secc d-md-flex rounded position-relative flex-column align-items-center'>
                 <div className='col-md-8 col-6 img-box  '>
                     <img alt='head' className='img-fluid' src={headphones } />
                 </div>
@@ -20,7 +20,7 @@ function Shop({ page,setPage }) {
                 <div>SHOP <span style={{color:"#D87D4A"}}><KeyboardArrowRightIcon/></span> </div>
                 </div>
             </Link>
-                    <Link onClick={() => { setPage("speakers"); ;window.scrollTo({top:"0"})}} to='/speakers' style={{textDecoration:"none"}} className='col-md-3 col-12 secc d-md-flex rounded position-relative flex-column align-items-center'>
+                    <Link onClick={() => { setPage("speakers"); ;window.scrollTo({top:"0"})}} to='/Audiophile-e-commerce/speakers' style={{textDecoration:"none"}} className='col-md-3 col-12 secc d-md-flex rounded position-relative flex-column align-items-center'>
                 <div className='col-md-8 col-6 img-box  '>
                     <img alt='head' className='img-fluid' src={speakers } />
                 </div>
@@ -29,7 +29,7 @@ function Shop({ page,setPage }) {
                 <div>SHOP <span style={{color:"#D87D4A"}}><KeyboardArrowRightIcon/></span> </div>
                 </div>
                 </Link>
-                    <Link onClick={() => { setPage("earphone"); ;window.scrollTo({top:"0"})}} to='/earphones' style={{textDecoration:"none"}} className='col-md-3 col-12   secc d-md-flex rounded position-relative flex-column align-items-center'>
+                    <Link onClick={() => { setPage("earphone"); ;window.scrollTo({top:"0"})}} to='/Audiophile-e-commerce/earphones' style={{textDecoration:"none"}} className='col-md-3 col-12   secc d-md-flex rounded position-relative flex-column align-items-center'>
                 <div className='col-md-8 col-6 img-box  '>
                     <img alt='head' className='img-fluid' src={earphones } />
                 </div>

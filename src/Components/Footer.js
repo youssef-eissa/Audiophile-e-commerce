@@ -17,10 +17,10 @@ return (
                         <img alt='logo' src={ logo} className='img-fluid' />
                     </div>
                     <ul className='d-md-block d-flex p-0 flex-column col-md-7 mt-md-0 mt-4 align-items-center position-relative col-12 text-end'  >
-                        <Link onClick={() => { setPage("home");window.scrollTo({top:"0"})}} to='/' className='link me-md-4 my-md-0 my-3'>HOME</Link>
-                        <Link onClick={() => { setPage("headphone");window.scrollTo({top:"0"})}} to='/headphones' className='link me-md-4 my-md-0 my-3'>HEADPHONES</Link>
-                        <Link onClick={() => { setPage("speakers");window.scrollTo({top:"0"})}} to='/speakers' className='link me-md-4 my-md-0 my-3'>SPEAKERS</Link>
-                    <Link onClick={()=>{setPage("earphone");window.scrollTo({top:"0"})}} to="/earphones" className='link me-md-4 my-md-0 my-3'>EARPHONES</Link>
+                        <Link onClick={() => { setPage("home");window.scrollTo({top:"0"})}} to='/Audiophile-e-commerce/' className='link me-md-4 my-md-0 my-3'>HOME</Link>
+                        <Link onClick={() => { setPage("headphone");window.scrollTo({top:"0"})}} to='/Audiophile-e-commerce/headphones' className='link me-md-4 my-md-0 my-3'>HEADPHONES</Link>
+                        <Link onClick={() => { setPage("speakers");window.scrollTo({top:"0"})}} to='/Audiophile-e-commerce/speakers' className='link me-md-4 my-md-0 my-3'>SPEAKERS</Link>
+                    <Link onClick={()=>{setPage("earphone");window.scrollTo({top:"0"})}} to="/Audiophile-e-commerce/earphones" className='link me-md-4 my-md-0 my-3'>EARPHONES</Link>
                 </ul>
             </div>
             </div>

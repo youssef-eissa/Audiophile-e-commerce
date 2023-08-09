@@ -16,7 +16,7 @@ function Speakers({ data,setDetails,setPage,cart }) {
                         {speaker.new && <span style={{ letterSpacing: "10px", color: "#D87D4A" }}>NEW PRODUCT</span>}
                         <h1 style={{fontSize:"40px"}} className='my-3'>{speaker.name}</h1>
                         <span className='col-12 text-center text-md-start' style={{fontSize:"15px",color:"#979797"}}>{speaker.description}</span>
-                        <Link onClick={() => { !cart.includes(cart)&&setDetails([{...speaker,itemquantity:1}]); setPage("");window.scrollTo({top:"0"})}} to='/details' className='speakerlink col-5 text-center py-3 mt-3'>SEE PRODUCT</Link>
+                        <Link  onClick={() => { !cart.includes(cart)&&setDetails([{...speaker,itemquantity:1}]); setPage("");window.scrollTo({top:"0"})}} to='/Audiophile-e-commerce/details' className='speakerlink col-5 text-center py-3 mt-3'>SEE PRODUCT</Link>
                     </div>
                 </div>
             </div>

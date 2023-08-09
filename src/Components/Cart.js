@@ -58,7 +58,7 @@ return (
                 </div>
             </div>
             <div className='row'>
-                <Link to='/checkout' onClick={() => { setDisplay("d-none"); setPage("checkout")}} style={cart.length===0?{pointerEvents:"none"}:{pointerEvents:"auto"}} className='w-100 col-12 text-center checkout py-3'>CHECKOUT</Link>
+                <Link to='/Audiophile-e-commerce/checkout' onClick={() => { setDisplay("d-none"); setPage("checkout")}} style={cart.length===0?{pointerEvents:"none"}:{pointerEvents:"auto"}} className='w-100 col-12 text-center checkout py-3'>CHECKOUT</Link>
 
             </div>
     </div>

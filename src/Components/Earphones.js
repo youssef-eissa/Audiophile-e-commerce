@@ -16,7 +16,7 @@ return (
                 {earphone.new&&<span style={{letterSpacing:"10px", color:"#D87D4A"}}>NEW PRODUCT</span>}
                         <h1 className='my-3 col-12 text-center text-md-start' style={{fontSize:"40px"}}>{earphone.name}</h1>
                         <span className='col-12 text-md-start text-center' style={{ color: "#979797", fontSize: "15px" }}> {earphone.description}</span>
-                        <Link to='/details' onClick={() => {  setDetails([{ ...earphone, itemquantity: 1 }]); setPage("");window.scrollTo({top:"0"})}} style={{textDecoration:"none"}} className='earphonelink py-3 col-5 text-center mt-3'>SEE PRODUCT</Link>
+                        <Link to='/Audiophile-e-commerce/details' onClick={() => {  setDetails([{ ...earphone, itemquantity: 1 }]); setPage("");window.scrollTo({top:"0"})}} style={{textDecoration:"none"}} className='earphonelink py-3 col-5 text-center mt-3'>SEE PRODUCT</Link>
                     </div>
                 </div>
             </div>
