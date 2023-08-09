@@ -1,0 +1,15 @@
+.checkout{
+    background-color: #D87D4A;
+    text-decoration: none;
+    color: white;
+}
+.checkout:hover{
+    background-color: #FBAF85;
+    transition: 0.3s;
+}
+@media (max-width:768px) {
+    .boxContainer {
+            position: absolute;
+            right: 20px;
+        }
+}

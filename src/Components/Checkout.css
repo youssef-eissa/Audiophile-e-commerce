@@ -1,0 +1,99 @@
+.input{
+    border: 1px solid #CFCFCF;
+}
+.input:focus{
+    outline: none;
+}
+.radio{
+    border: 1px solid #CFCFCF;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+}
+.radio::before{
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #CFCFCF;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    transition: 0.3s;
+}
+.radio::after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    transition: 0.3s;
+}
+input[type="radio"]:checked+label{
+    border: 1px solid #D87D4A;
+}
+input[type="radio"]:checked+label::before {
+    border: 1px solid #D87D4A;
+}
+
+input[type="radio"]:checked+label::after {
+    background-color: #D87D4A;
+}
+.e-money input{
+    border: 1px solid #CFCFCF;
+}
+.con{
+    transition: 0.3s;
+    background-color: #D87D4A;
+}
+.con:hover{
+    background-color: #FBAF85;
+}
+.confirmation{
+    position: absolute;
+    height: 100%;
+    width: 200%;
+    top: 0;
+    left: -200px;
+
+}
+.backk{
+    text-decoration: none;
+    color: white;
+    background-color: #D87D4A;
+    text-align: center;
+    transition: 0.3s;
+}
+.backk:hover{
+    background-color: #FBAF85;
+}
+.less{
+    border-style:solid ;
+    border-width: 1px;
+    border-color: transparent transparent #979797 transparent;
+}
+.more {
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent transparent #979797 transparent;
+}
+.thankk{
+    font-size: 32px;
+}
+.conCart{
+    left: 900px;
+}
+@media (max-width:768px) {
+    .conCart{
+        position: absolute;
+        left: 400px;
+        display: none;
+    }
+    .thankk{
+        font-size: 24px;
+    }
+}

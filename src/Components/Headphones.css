@@ -1,0 +1,18 @@
+.linkhead{
+    background-color: #D87D4A;
+    color: white;
+    transition: 0.3s;
+}
+.linkhead:hover{
+    background-color: #FBAF85;
+}
+.headp{
+    margin-bottom: 200px;
+    
+}
+@media (max-width:768px) {
+    .headp {
+            margin-bottom: 0px;
+    
+        }
+}

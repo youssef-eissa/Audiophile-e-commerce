@@ -1,0 +1,17 @@
+.earphonelink {
+    background-color: #D87D4A;
+    color: white;
+    transition: 0.3s;
+}
+
+.earphonelink:hover {
+    background-color: #FBAF85;
+}
+.ear {
+    margin-bottom: 200px;
+}
+@media (max-width:768px) {
+    .ear{
+        margin-bottom: 0;
+    }
+}

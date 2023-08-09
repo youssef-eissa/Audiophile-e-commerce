@@ -1,0 +1,16 @@
+.speakerlink{
+    background-color: #D87D4A;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.speakerlink:hover{
+    background-color: #FBAF85;}
+    .speaker{
+        margin-bottom: 200px;
+    }
+    @media (max-width:768px) {
+        .speaker{
+            margin-bottom: 0;
+        }
+    }

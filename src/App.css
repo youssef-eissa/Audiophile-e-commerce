@@ -1,0 +1,14 @@
+.boxContainer{
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    width: 377px;
+}
+.remove{
+    color: #979797;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.remove:hover{
+        color: #D87D4A;
+}

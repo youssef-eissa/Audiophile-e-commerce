@@ -1,0 +1,24 @@
+.linkhov{
+    transition: 0.3s;
+    background-color: #D87D4A;
+}
+.linkhov:hover{
+    background-color: #FBAF85;
+}
+.sign{
+    font-size: 13px;
+    color: #979797;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+}
+.sign:hover{
+    color: #D87D4A;
+}
+.addto{
+    background-color: #D87D4A;
+    transition: 0.3s;
+}
+.addto:hover{
+    background-color: #FBAF85;
+}
