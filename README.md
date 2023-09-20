@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Audiophile e-commerce website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website that allows users to Add/Remove products from the cart, checkout and keep track of what's in the cart, even after refreshing the browser.
 
-## Available Scripts
+# Api sources:
+json data file
 
-In the project directory, you can run:
+# About the website
 
-### `npm start`
+The Audiophile e-commerce website includes the following pages:
+(All pages include navbar and footer )
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Home Page 
+- Products Page
+- Detailed single product Page
+- Cart Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Features
 
-### `npm test`
+The Audiophile e-commerce website includes the following features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Add And remove products in the cart
+- Calculate all chosen products price in cart
+- keep track of what's in the cart
+- checkout form for the user
+- modal box contains all products user bought
 
-### `npm run build`
+# Technologies Used
+- React
+- Bootstrap
+- CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img alt='login' src='/src/screenshots/home.png'>
+<img alt='home' src='/src/screenshots/home2.png'>
+<img alt='home' src='/src/screenshots/home3.png'>
+<img alt='home' src='src/screenshots/home4.png'>
+<img alt='about' src='/src/screenshots/productDetails.png'>
+<img alt='about' src='/src/screenshots/productDetails2.png'>
+<img alt='about' src='/src/screenshots/productDetails3.png'>
+<img alt='about' src='/src/screenshots/productDetails4.png'>
+<img alt='productsDetails' src='/src/screenshots/headphones1.png'>
+<img alt='productsDetails' src='/src/screenshots/headphones2.png'>
+<img alt='productsDetails' src='/src/screenshots/headphones3.png'>
+<img alt='productsDetails' src='/src/screenshots/headphones4.png'>
+<img alt='productsDetails' src='/src/screenshots/speakers1.png'>
+<img alt='productsDetails' src='/src/screenshots/speakers2earphone.png'>
+<img alt='productsDetails' src='/src/screenshots/earphones.png'>
+<img alt='productsDetails' src='/src/screenshots/cartBox.png'>
+<img alt='productsDetails' src='/src/screenshots/checkout.png'>
+<img alt='productsDetails' src='/src/screenshots/modal.png'>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Project Link 
+https://youssef-eissa.github.io/Audiophile-e-commerce/
